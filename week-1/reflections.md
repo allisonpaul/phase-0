@@ -27,4 +27,11 @@ Alright, now to see if I can remember these suckers off the top of my head
 -help provides info about commands
 
 # 1.4 Forking and Cloning Reflection
+I am going to teach y’all how to make a new repo, clone a repo, and fork a repo!
+To make a new repository go to your github profile. On the top right there is a little plus sign- click it, then the ‘new repository’ option. This takes you to a page where you will name the repo, decide if it is public or private, and add a license. Then just click the green create repository button and you are done! Congrats.
+You now need to clone this to your machine.
+On the repos page there is a link (I used the https link both times, unsure of the SSH option). Copy this link and enter your terminal. Use the pwd command to ensure you are in the right place, the use git clone “THE URL YOU JUST COPIED” to clone to your machine.
+To fork a repository you will first go to the page of the one you want. On github there is a fork option on the right under the teeny photo of yourself-click it. Github will ask where you want the repository to be forked to- click your username. Github will then redirect you to the copy of the repository you just made. You can then clone the repo to your machine using the steps i just outlined above.
+You fork a repo instead of creating a new one because sometimes users create really cool stuff that you want a copy of! By forking it you make your own distinct copy that you can edit, save, and take in an entirely new direction if you so choose.
 
+I didn’t have any troubles forking/cloning but I did have trouble once I got to the command line. Once I got the file forked, I navigated to its directory and wanted to open that file in sublime from the command line- I was over thinking it of course. I did a little research on how to do this (and actually found a github repo on the subject) and realized I only need to type sublime then the file name.
