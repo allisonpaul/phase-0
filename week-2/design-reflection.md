@@ -12,7 +12,7 @@ The primary goal of my site is to promote myself by showing my work, information
 
 What is your target audience's interests and how do you see your site addressing them?
 
-My target audience are furture employers.  I will cater to them with job-specific information about me! Such as skills, past work experience, etc.. I will know more about how to tailor the site when I start in my job search.
+My target audience are future employers.  I will cater to them with job-specific information about me! Such as skills, past work experience, etc.. I will know more about how to tailor the site when I start in my job search.
 
 
 What is the primary "action" the user should take when coming to your site? Do you want them to search for information, contact you, or see your portfolio? It's ok to have several actions at once, or different actions for different kinds of visitors.
