@@ -1,4 +1,4 @@
-**Paste a link to your [USERNAME].github.io repository.**
+
 
 [Here is my site](http://allisonpaul.github.io).
 
