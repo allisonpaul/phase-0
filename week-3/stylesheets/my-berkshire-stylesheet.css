@@ -72,3 +72,24 @@ footer {
 table > span {
     margin:15px;
 }
+
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It's important to know the path to your file. If you don't have the path typed properly, then the stylesheet will do you no good at all.
+It's important to remember to have the rel and the type as well.  The type attribute is used to specify what type of file you are attaching.  The rel attribute, short for relative, defines the relationship between the html and the file you are attaching.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+It was really hard to get the columns how we wanted them to look. Everything else (header, footer, geico image) was simply to position but we spent the majority of our pairing time trying to figure out those freaking columns.  We wanted to avoid using a table, so we tried to create columns using an unordered list and a div class.  Then we floated the divs.  This gave us columns, but we weren't able to get them where we wanted on the page, and we couldn't modify the margin the way we wanted to.  We were able to target them by selection <li> and modifying the margin that way, but ultimately we gave in and realized we had to make a table to get the page to flow properly with the columns in the correct spot.
+So we made a table and edited the position by giving it an ID and adjusted the left margin.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+We used font-size, color, text-align, margins. We also used border-bottom  to get the horizontal page breaks.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+We used both IDs and class.  We used ID on the header and the table and class on the background, text color, and line breaks.
+You use IDs when you want to edit a single element and a class when you want to syle multiple elements throughout the page.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I think we had cleaner code.  Most of their code was obsolete and tricky to read.  They used the <a name> attribute a lot instead of using IDS, and they seemed to use it excessively.  I believe all our code has a purpose and is concise as possible.  We did have a problem when we ran our html through a validator.  It showed an error for how we used an unordered list in our table.  I noticed that the source code made an unordered list for each individual list item, which seems unneccesary to me since one list yeilds the same result.
+Their code also seemed to use html for styling, which we did not do.*/
