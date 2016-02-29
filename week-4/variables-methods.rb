@@ -46,4 +46,4 @@ What was confusing about this material? What made sense?
 
 
 [Here is 4.3.1](https://github.com/allisonpaul/phase-0/blob/master/week-4/address/my_solution.rb)
-[Here is 4.3.2]
+[Here is 4.3.2](https://github.com/allisonpaul/phase-0/blob/master/week-4/math/my_solution.rb)
