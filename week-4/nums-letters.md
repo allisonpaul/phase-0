@@ -72,17 +72,11 @@ puts ((((1160000000/ 365 ) /24 ) /60) /60)
 If you provide integers, ruby will give you the answer you expect.  However, if you provide floating numbers (numbers with decimal points) Ruby will always give you the lowest integer.
 
 ```
-+
-``` is addition
++ is addition
+- is subtraction
+* is multiplication
+/ is division
 ```
--
-``` is subtraction
-```
-*
-``` is addition
-```
-/
-``` is division.
 
 
 <b>What is the difference between integers and floats?</b>
