@@ -50,3 +50,5 @@ How was this challenge? Did you get a good review of some of the basics?
 
 
 [4.2.1](https://raw.githubusercontent.com/allisonpaul/phase-0/master/week-4/defining-variables.rb)
+[4.2.2](https://raw.githubusercontent.com/allisonpaul/phase-0/master/week-4/simple-string.rb)
+[4.2.3]
