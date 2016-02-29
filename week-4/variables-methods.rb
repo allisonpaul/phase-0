@@ -20,8 +20,16 @@ puts "But #{num+1} is bigger and better! Could that be a new favorite?"
 How do you define a local variable?
 How do you define a method?
 What is the difference between a local variable and a method?
+
 How do you run a ruby program from the command line?
     I have been running a ruby program by typing ruby and the file name.  You can also run a ruby by using IRB.This is useful when running commands individually.
+
 How do you run an RSpec file from the command line?
+    You run rspec files by typing rspec and the name of the file.
+
 What was confusing about this material? What made sense?
+
 =end
+
+
+[here is 4.3.1]()
