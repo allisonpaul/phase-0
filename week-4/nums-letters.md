@@ -44,3 +44,9 @@ What is the difference between integer and float division?
 What are strings? Why and when would you use them?
 What are local variables? Why and when would you use them?
 How was this challenge? Did you get a good review of some of the basics?
+
+
+
+
+
+[4.2.1](https://raw.githubusercontent.com/allisonpaul/phase-0/master/week-4/defining-variables.rb)
