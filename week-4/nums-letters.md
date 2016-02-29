@@ -135,6 +135,8 @@ Here, my_string is the variable and it holds the data 'This is a string.' So fro
 This challenge was fun! I remembered a good bit of the information from previous Ruby tutorials I did when prepping for the DBC interview.  I haven't paid much mind to Ruby since then, so it was really nice to dip my toe in the Ruby waters again. I'm excited to learn more, though a little intimidated.  I was also reminded of how long it has been since I have done math! Yikes!
 
 
+I also love the three backticks for code blocks.  Why is that so satisfying?!
+
 
 
 
