@@ -13,9 +13,28 @@
 # Your Solution Below
 
 def smallest_integer(list_of_nums)
+  smallest=list_of_nums[0]
+
+list_of_nums.each do |num|
+  if num < smallest
+    smallest = num
+   end
+end
+
+return smallest
+end
+
+
+
+=begin
+
+Here is the code using defined Ruby methods.  I find this much clearer. i <3 build in ruby methods.
+
+def smallest_integer(list_of_nums)
       if list_of_nums.length == 0
         return nil
        else
       return list_of_nums.sort[0]
       end
 end
+=end
