@@ -33,11 +33,11 @@ factorial(20)
 =begin
  Here is some code to simplify.
 
-def fact(n)
+def factorial(n)
  if n == 0 || n==1
-    1
+    return 1
   else
-   n * fact(n-1)
+   return n * factorial(n-1)
   end
 end
 

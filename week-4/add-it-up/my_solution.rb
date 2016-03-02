@@ -50,17 +50,16 @@ end
         string= string + s + ' '
   end
     string=string.chomp(" ")
-    p  string.capitalize + "."
+    return  string.capitalize + "."
    end
-sentence_maker (['i', 'hate', 'ruby'])
+sentence_maker (['i', 'do', 'not', 'hate', 'ruby'])
 
 
 
 
 # 6. sentence_maker refactored solution
-
 # def sentence_maker(array)
 #    x=array.join(" ")
 #    return x.capitalize + "."
 #    end
-#  sentence_maker (['i', 'hate', 'ruby'])
+#  sentence_maker (['i', 'do', 'not', 'hate', 'ruby'])
