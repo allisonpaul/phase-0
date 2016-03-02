@@ -29,8 +29,7 @@ end
 =begin
 
 Here is the code using defined Ruby methods.  I find this much clearer. i <3 build in ruby methods.
-
-def smallest_integer(list_of_nums)
+def smallest_integer(*list_of_nums)
       if list_of_nums.length == 0
         return nil
        else
