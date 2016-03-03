@@ -14,7 +14,7 @@ my_info = {:first_name =>'Allison',
  #This will print all my information and nothing else.
 my_info.each do |k,v| p v end
 
- #This will print all my information in a sentance.
+ #This will print all my information in a sentence.
  puts "Hi my name is #{my_info[:first_name]} #{my_info[:last_name]}. I am #{my_info[:age]} years old and from #{my_info[:hometown]}."
 
 # RSpec Tests. They are included in this file because the local variables you are creating are not accessible across files. If we try to run these files as a separate file per normal operation, the local variable checks will return nil.
