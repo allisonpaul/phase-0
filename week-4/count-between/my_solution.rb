@@ -25,6 +25,5 @@ end
       between += 1
     end
   end
-
   return between
 end
