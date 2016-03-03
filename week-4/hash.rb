@@ -6,10 +6,10 @@
 # Your Solution Below
 
 # my_info is empty to start.  Edit this!
-my_info = {':first_name' =>'Allison',
-          ':last_name' =>'Paul',
-          ':hometown' =>'Bowling_green',
-          ':age' => 24
+my_info = {:first_name =>'Allison',
+          :last_name =>'Paul',
+          :hometown =>'Bowling_green',
+          :age => 24
 }
 
 my_info.each do |k,v| p v end
