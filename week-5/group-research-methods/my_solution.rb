@@ -48,7 +48,7 @@ def my_hash_modification_method!(hash, num)
 
 
 # Identify and describe the Ruby method(s) you implemented.
-# I used the map method.  Map is basically the same as the each method, and it goes through each item in the object you called it on but it alters the original return value. It's can also be called as collect, so I used collect in my second method just to switch it up a bit and see if it worked the same (they do. exactly the same. Map is the more common usage I believe.)
+# I used the map method.  Map is basically the same as the each method, and it goes through each item in the object you called it on. It can also be called as collect, so I used collect in my second method just to switch it up a bit and see if it worked the same (they do. exactly the same. Map is the more common usage I believe.)
 #I also used the is_a method to find the integers in my array. This basically finds everything in the class of my choosing. So here I said go through all of the array, if any item if an integer add two to it, then print all the items of the array. I think this is a really cool method and when I found it on ruby docs I was pretty jazzed.
 #I find that I pretty much always have to follow up the Ruby Docs with some googling for a further breakdown.
 # Sometimes I do this in reverse and see if there is a method to do what I am looking for and then I read the Ruby docs to get an understanding of the syntax.
