@@ -93,13 +93,20 @@ def print_list
 
 =begin
 What did you learn about pseudocode from working on this challenge?
-  I learned that pseudocoding can be kind of hard when you are doing simple challenges, but still really important. We also had the problem of sometimes wanting to jump into the code which resulted in some half-ass pseudocoding.  I really want improve on my pseudocode skills and make sure they are thorough, read really easily and avoid using any code specific terms. I'm starting to believe that clear pseudocode makes all the difference when starting to write code.
-  We also used words like 'iterate' in our pseudocode but it might be better to furthor break it down and say something like 'go through each item one by one'.
+  I learned that pseudocoding can be kind of hard when you are doing simple challenges, but still really important.
+  We also had the problem of sometimes wanting to jump into the code which resulted in some half-ass pseudocoding.  
+  I really want improve on my pseudocode skills and make sure they are thorough, read really easily and avoid using any code specific 
+  terms. I'm starting to believe that clear pseudocode makes all the difference when starting to write code.
+  We also used words like 'iterate' in our pseudocode but it might be better to furthor break it down and say something like 
+  'go through each item one by one'.
   (How many times can I say pseudocode in this paragraph?)
 
 What are the tradeoffs of using Arrays and Hashes for this challenge?
-  So, we set our hash to a global variable at the beginnging of the challenge and used that hash for each method.  This turned out to be really simple and accessible. We decided at the beginnging to use a hash where the key would be the list item and the value would be the quantity of the item. I think using arrays would have been messier and harder to read in the code.
-  It's also easier to edit an array because you can find the key and target the associated value and change that.
+  So, we set our hash to a global variable at the beginnging of the challenge and used that hash for each method.  
+  This turned out to be really simple and accessible. We decided at the beginnging to use a hash where the key would 
+  be the list item and the value would be the quantity of the item. I think using arrays would have been messier and 
+  harder to read in the code. It's also easier to edit an array because you can find the key and target the associated value 
+  and change that.
 
 What does a method return?
   A method returns the evaluated result from the last line executed.
@@ -108,16 +115,20 @@ What kind of things can you pass into methods as arguments?
   You can pass all sorts of things into methods as arguments.  Integers, strings, arrays, hashes, and other methods.
 
 How can you pass information between methods?
-  We did this by setting a global variable and using this in all of our methods. Looking back, I think using a global variable was really similar to using a class and I wish our guide would have advised us to do otherwise.
+  We did this by setting a global variable and using this in all of our methods. Looking back, I think using a global variable 
+  was really similar to using a class and I wish our guide would have advised us to do otherwise.
 
   You can also pass information in the arguments of the methods.
   EDIT: I redid the whole challenge by calling the hash in the arguments, so see below for an updated version!
 
 What concepts were solidified in this challenge, and what concepts are still confusing?
-      This was the first time I used global variables so it was cool to learn about those. I learned how to delete items out of a hash, which is useful and pretty easy.
+      This was the first time I used global variables so it was cool to learn about those. I learned how to delete items out of a hash, 
+      which is useful and pretty easy.
 
 
-I really felt like I missed the whole point of the challenge by using the global variable, so I went back and did the challenge and passed the information by calling the hash in the argument for all of the methods. Here is the new code for all of the methods! this really helped me understand it better.
+I really felt like I missed the whole point of the challenge by using the global variable, so I went back and did the challenge and 
+passed the information by calling the hash in the argument for all of the methods. Here is the new code for all of the methods! this 
+really helped me understand it better.
 
 def list(string)
   grocery_list=Hash.new(0)
