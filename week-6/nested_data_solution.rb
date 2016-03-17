@@ -70,7 +70,13 @@ What are some general rules you can apply to nested arrays?
 What are some ways you can iterate over nested arrays?
   Here we used a nested #map! to iterate over the arrays.  We also used #flatten to get them out of their nest.
 
-Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
-  We re-used both map and flatten. Map was a good option because it returns an array value and it replaces the element in the array with the value returned by the code block.  We added a bang (!) to make it destructive. We used #is_a? as well to check for arrays.
-  We also used flatten, which I have seen before but haven't used.  This method flattens subarrays so we can easily target each element, in this case to add "ly". Before we used flatten the code was changing the first element (since it is not in a nested array) and then just adding "ly" to the end of the array. We had to use a bang on flatten as well as on map to permenantly alter the array.
+Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and
+why did you decide that was a good option?
+  We re-used both map and flatten. Map was a good option because it returns an array value and it replaces the element in the
+  array with the value returned by the code block.  We added a bang (!) to make it destructive. We used #is_a? as well to check
+  for arrays.
+  We also used flatten, which I have seen before but haven't used.  
+  This method flattens subarrays so we can easily target each element, in this case to add "ly". Before we used flatten the code 
+  was changing the first element (since it is not in a nested array) and then just adding "ly" to the end of the array. We had to
+  use a bang on flatten as well as on map to permenantly alter the array.
 
