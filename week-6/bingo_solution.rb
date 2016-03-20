@@ -223,7 +223,8 @@ new_game.display_board
 
 How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
   Pseudocoding was difficult for me because of the template already layed out.
-  It kind of confused me and made me add things I probably wouldn't have added initially (like displaying a column. I didn't include this in my code because I didn't see the point to it).
+  It kind of confused me and made me add things I probably wouldn't have added initially (like displaying a column. 
+  I didn't include this in my code because I didn't see the point to it).
   I had to read the challenge a couple times and write pseudocode on a seperate paper.
 
 What are the benefits of using a class for this challenge?
@@ -245,8 +246,11 @@ What methods did you use to access and modify the array?
     value of the element if it was equal to the number called.
 
 
-Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
-    In the Ruby docs I learned each_index with is what I thought I initially wanted to use when I saw it in the side bar.  But this method only passes through the index of the element and not the element itself.  I also considered using map! and include? to replace the number with 'X'.  Include checks to see if the value exists.
+Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve,
+and how is it called?
+    In the Ruby docs I learned each_index with is what I thought I initially wanted to use when I saw it in the side bar.  
+    But this method only passes through the index of the element and not the element itself.  I also considered using map! and include? to 
+    replace the number with 'X'. Include checks to see if the value exists.
     #map goes through an object like #each but modifies.
     Ultimately, I didn't use them because my code worked find and these didn't seem to add anything to the code when I switched it out.
 
@@ -254,5 +258,7 @@ How did you determine what should be an instance variable versus a local variabl
     If I needed to use the variable in another method I made it an instance variable.
 
 What do you feel is most improved in your refactored solution?
-  I think my refactored solution is a lot more readable and concise.  It took me a couple days to realize that the letter is only important for the call and not the actual checking and replacing since Bingo cards never have two of the same number, so that was a major duh moment. I think I have a problem always making things too complicated. I also added a title to the bingo board.
+  I think my refactored solution is a lot more readable and concise.  It took me a couple days to realize that the letter is only 
+  important for the call and not the actual checking and replacing since Bingo cards never have two of the same number, so that was a 
+  major duh moment. I think I have a problem always making things too complicated. I also added a title to the bingo board.
 =end
