@@ -38,6 +38,7 @@ return returning_sum;
 function mean(array){
 return (sum(array)/array.length);
 }
+
 //FUNCTION MEAN
 // As a USER I want to input data sets, one with an even length and one with an odd, and return the mean of those data sets by dividing the sum by the length.
 
@@ -61,6 +62,9 @@ else {
 
 }
 }
+
+
+
 //FUNCTION MEDIAN
 // As a USER I want to input data sets, one  with an even length and one with an odd, and return the median of those data.
 
