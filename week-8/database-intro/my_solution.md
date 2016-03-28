@@ -1,3 +1,5 @@
+###8.4 Intro to Database Schemas and SQL 
+
 1. Select all data for all states.
 
 ```SELECT * FROM states;```
@@ -53,22 +55,22 @@ WHERE region_name LIKE '%Central%';```
 ```SELECT regions.region_name, states.state_name FROM regions JOIN states ON states.region_id = regions.id ORDER BY region_id ASC;```
 
 
-SCHEMA
-![clueless](/clueless)
+##SCHEMA
+![clueless](clueless.png/)
 
 
 
-REFLECT
+##REFLECT
 
 
-What are databases for?
+***What are databases for?***
 
 
   Databases are for storing information in a structured/ accesible way.
 
 
 
-What is a one-to-many relationship?
+***What is a one-to-many relationship?***
 
 
 "One-to-many" is a relationship where 1 entity can have more than another entity.
@@ -76,19 +78,22 @@ Each row in the table can be related to many rows in the relating table.
 
 
 
-What is a primary key? What is a foreign key? How can you determine which is which?
+***What is a primary key? What is a foreign key? How can you determine which is which?***
 
 
   A primary key is a column that serves a unique indentifier for a row in the table.
+  
   A foreign key is a column that contains the primary key to another table in the database. It is used to identify a particular row in the referenced table.
 
 
   -Primary keys can't be null, foreign keys can.
+  
   -You can only have one primary key in a table but can have multiple foreign keys.
+  
   -Primary key uniquely indentify a record in the table.
 
 
-How can you select information out of a SQL database? What are some general guidelines for that?
+***How can you select information out of a SQL database? What are some general guidelines for that?***
 
 
   You select information with a query. The basic syntax is
