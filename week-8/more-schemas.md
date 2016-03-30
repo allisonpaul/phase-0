@@ -7,7 +7,7 @@
 This is a one to one relationship because the relationship only exists when any given row in person can only have one matching row in passport details. One person can't have more than one passport (in North America) and one passport can't have more than one owner.
 
 
-![many](imgs/many-to-many.png)
+![many-to-many](https://github.com/allisonpaul/phase-0/blob/master/week-8/imgs/%20many-to-many.png)
 
 
 <b>What is a one-to-one database?</b>
@@ -15,7 +15,7 @@ This is a one to one relationship because the relationship only exists when any 
 
 A one to one database is where each row in one table is linked to one and only one row in another table.
 
-<b>When would you use a one-to-one database? (Think generally, not in terms of the example you created).<b/>
+<b>When would you use a one-to-one database? (Think generally, not in terms of the example you created).</b>
 
 
 You would use a one to one database when there is a row that might have empty cells in the other table. They are like optional attributes that we can use if another attribute has them, but it will avoid having a lot of empty entries.  This is quite hard for me to explain!
