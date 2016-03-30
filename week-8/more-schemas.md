@@ -1,11 +1,14 @@
-![one-to-one](../imgs/one-to-one)
+![one-to-one](imgs/one-to-one.png)
 
 
 <b>Why is this a one-to-one relationship?</b>
 
 
 This is a one to one relationship because the relationship only exists when any given row in person can only have one matching row in passport details. One person can't have more than one passport (in North America) and one passport can't have more than one owner.
-![many](../imgs/many-to-many)
+
+
+![many](imgs/many-to-many.png)
+
 
 <b>What is a one-to-one database?</b>
 
