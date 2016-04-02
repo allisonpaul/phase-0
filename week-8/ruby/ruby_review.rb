@@ -1,9 +1,5 @@
 # Reverse Words
 
-
-# I worked on this challenge [by myself, with: ].
-# This challenge took me [#] hours.
-
 # Pseudocode
 # input-a string
 # output-the string reversed
